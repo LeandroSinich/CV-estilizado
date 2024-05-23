@@ -5,6 +5,7 @@
 }
 body{
     background-color: antiquewhite;
+    
     color: rgb(27, 27, 27);
     margin: 0;    
     font-family: "Work Sans", sans-serif;
@@ -15,16 +16,18 @@ body{
     display: flex; 
     justify-content: space-between;   
     padding: 10px;
-    background-color: rgb(40, 36, 63);
-    
+    background-color: rgb(56, 48, 99);    
     left: 0;
     top: 0;
     width: 100vw;
     z-index: 1;
+    background-image: url("/assets/img/TEXTURA2.png");
+    background-blend-mode:darken;
+    background-size: cover;
 }
 .avatar{
-    border: 3px solid rgb(68, 81, 94);
-    border-radius: 100%;
+    
+    border-radius: 30% 0px 0px;
 }
 h1, h3{
     margin: 0px 0px 0px 25px;
@@ -32,11 +35,11 @@ h1, h3{
     margin: 10px 20px 0px 30px
 }
 h3{
-    border:  solid antiquewhite;
+    /* border: 1px solid rgb(29, 29, 29); */
     border-left: 0px;
     border-bottom: 0px;
     padding: 5px;
-    
+    box-shadow: -5px -5px 2px 0px rgba(19, 18, 18, 0.534);
     
 }
 
@@ -63,14 +66,21 @@ ul{
     align-items: center;     
     list-style-type: none;
     margin:0;
+    border-radius: 0px 0px 30px;
     padding: 10px 0px ;    
-    
-    background-color: rgb(48, 85, 74);
+    box-shadow: 5px 5px 5px 0px rgba(65, 64, 64, 0.534);
+    background-color: rgb(94, 131, 120);
     width: 75px;
     height: auto;
+    
+    
+}
+ul:not(.active){
+    opacity: 1;
 }
 li{
-    margin-top: 13px;
+    margin: 10px 0px 20px;
+
     width: 100%;
     text-align: center;
     padding: 5px 0px;
@@ -92,23 +102,26 @@ h6{
     margin: 0;
 }
 .active{
-    background-color:rgb(40, 36, 63) ;
+    background-color:rgb(56, 48, 99) ;
+    
     
 }
 .footer{
     position: fixed;
-    background-color:rgb(40, 36, 63) ;
+    background-color:rgb(56, 48, 99) ;
     color: antiquewhite;    
     padding: 20px;
     font-size: 10px;
     width: 100vw;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-image: url("/assets/img/TEXTURA2.png");
+    background-blend-mode:darken;
 }
 .homemade {
     font-family: "Homemade Apple", cursive;

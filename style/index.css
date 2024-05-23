@@ -1,0 +1,32 @@
+.container3{
+    
+    margin:o;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.article{
+    color: rgb(36, 35, 35);
+    max-height: 400px ;
+    margin: 20px 20px 0px 100px;
+    max-width: 300px;
+    background-image: url("/assets/img/fondo-hoja.PNG");
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
+    overflow: hidden;
+    overflow-x: visible;
+}
+h4{
+    font-family: "Homemade Apple", cursive;
+    font-size: 20px;
+    
+    margin-left: 15px;
+}
+h4::first-letter{
+    font-size: 30px;
+}
+p{
+    margin-bottom: 20px;
+    
+}
