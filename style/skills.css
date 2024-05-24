@@ -1,0 +1,62 @@
+.container-table{
+    display: flex;
+    justify-content: center;
+    
+    margin: 0;
+}
+.article-table{
+    background-image: url("/assets/img/fondo-hoja.PNG");
+    width: 250px;
+    height: 350px;
+    margin: 50px 10px 10px 80px;
+    padding-left: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
+
+}
+.skills{
+    min-width: 200px;
+    margin: 0px 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+ text-decoration: none;   
+}
+h4{
+    font-family: "Homemade Apple", cursive;
+    font-size: 20px;    
+}
+h4::first-letter{
+    font-size: 30px;
+}
+td{
+    line-height: 1.5em;
+}
+.margin{
+    animation-name: margin-animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes margin-animation {
+    0%{
+        margin-left: 565px;
+    }32%{
+        margin-left: 565px;
+    }33%{
+        margin-left: 35px;
+    }65%{
+        margin-left: 35px;
+    }66%{
+        margin-left: -500px;
+    }99%{
+        margin-left: -500px;
+    }100%{
+        margin-left: 565px;
+    }
+}
