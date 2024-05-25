@@ -1,0 +1,34 @@
+.container-contacto{
+    background-image: url("/assets/img/fondo-hoja.PNG");
+    width: 250px;
+    height: 350px;
+    margin: 80px 20px 10px 80px;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
+    
+}
+.article-contacto{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    margin: 0;
+    padding-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 20px 0px;
+}
+h4{
+    font-family: "Homemade Apple", cursive;
+    font-size: 20px;    
+}
+h5{
+    color: black;
+}

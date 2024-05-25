@@ -8,8 +8,8 @@
     background-image: url("/assets/img/fondo-hoja.PNG");
     width: 250px;
     height: 350px;
-    margin: 50px 10px 10px 80px;
-    padding-left: 0px;
+    margin: 80px 20px 10px 80px;
+    
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -25,9 +25,7 @@
     flex-direction: column;
     justify-content: center;
 }
-li{
- text-decoration: none;   
-}
+
 h4{
     font-family: "Homemade Apple", cursive;
     font-size: 20px;    
@@ -46,13 +44,13 @@ td{
 @keyframes margin-animation {
     0%{
         margin-left: 565px;
-    }32%{
+    }35%{
         margin-left: 565px;
-    }33%{
+    }36%{
         margin-left: 35px;
-    }65%{
+    }71%{
         margin-left: 35px;
-    }66%{
+    }72%{
         margin-left: -500px;
     }99%{
         margin-left: -500px;
