@@ -1,17 +1,15 @@
-.container-table{
+.center{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     height: 100vh;
     padding-bottom: 240px;
 }
-
-.article-table{
+.article-educacion{
     background-image: url("/assets/img/fondo-hoja.PNG");
     width: 250px;
     height: 350px;
     margin: 0;
-    
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -19,7 +17,7 @@
     box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
 
 }
-.skills{
+.apartado{
     min-width: 200px;
     margin: 0px 35px;
     text-align: center;
@@ -35,28 +33,25 @@ h4{
 h4::first-letter{
     font-size: 30px;
 }
-td{
-    line-height: 1.5em;
+ul{
+    list-style-type: none;
 }
 .margin{
     animation-name: margin-animation;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    
 }
 @keyframes margin-animation {
     0%{
-        margin-left: 565px;
-    }35%{
-        margin-left: 565px;
-    }36%{
-        margin-left: 35px;
-    }71%{
-        margin-left: 35px;
-    }72%{
-        margin-left: -500px;
+        margin-left: 310px;
+    }60%{
+        margin-left: 310px;
+    }61%{
+        margin-left: -230px;
     }99%{
-        margin-left: -500px;
+        margin-left: -230px;
     }100%{
-        margin-left: 565px;
+        margin-left: 310px;
     }
 }

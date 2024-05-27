@@ -1,34 +1,41 @@
-.container-contacto{
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 240px;
+}
+.article-experiencia{
     background-image: url("/assets/img/fondo-hoja.PNG");
     width: 250px;
     height: 350px;
     margin: 0;
-    
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
-    
+
 }
-.article-contacto{
+.apartado{
+    min-width: 200px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
     display: flex;
-    justify-content: center; 
-    align-items: center;   
-    height: 100vh;
-    padding-bottom: 240px;
-}
-ul{
+    flex-direction: column;
+    justify-content: center;
     list-style-type: none;
-}
-li{
-    margin: 20px 0px;
+    font-family: "Work Sans", sans-serif;
 }
 h4{
     font-family: "Homemade Apple", cursive;
     font-size: 20px;    
 }
-h5{
-    color: black;
+li{
+    text-align: start;
+}
+.end{
+    text-align: end;
 }
