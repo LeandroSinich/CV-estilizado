@@ -1,23 +1,33 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body {
+    height: 100vh;
+    margin:0;
+  }
 .container3{
     
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;      
-    height: 100vh;
-    padding-bottom: 240px;
-    
+    height: 76%;
+    background: linear-gradient(to top,rgb(38, 36, 46),rgb(135, 158, 153),rgb(209, 226, 219),rgb(209, 226, 219), rgb(230, 225, 225));
+    padding-bottom: 100px;
 }
+
 .article{
     color: rgb(36, 35, 35);
-    max-height: 400px ;
+    max-height: 300px ;
     margin: 0;
     max-width: 250px;
     background-image: url("/assets/img/fondo-hoja.PNG");
     padding: 20px;
     box-shadow: 0px 0px 5px 0px rgba(19, 18, 18, 0.534);
-    overflow: hidden;
-    overflow-x: visible;
+    
 }
 h4{
     font-family: "Homemade Apple", cursive;
@@ -30,5 +40,6 @@ h4::first-letter{
 }
 p{
     margin-bottom: 20px;
+    font-size: 0.9em;
     
 }

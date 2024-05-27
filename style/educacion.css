@@ -2,13 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding-bottom: 240px;
+    height: 76%;
+    background: linear-gradient(to top,rgb(38, 36, 46),rgb(135, 158, 153),rgb(209, 226, 219),rgb(209, 226, 219), rgb(230, 225, 225));
+    padding-bottom: 100px;
 }
 .article-educacion{
     background-image: url("/assets/img/fondo-hoja.PNG");
     width: 250px;
-    height: 350px;
+    max-height: 350px;
+    padding: 40px 20px;
     margin: 0;
     overflow: hidden;
     display: flex;
